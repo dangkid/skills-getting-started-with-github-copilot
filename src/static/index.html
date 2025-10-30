@@ -52,5 +52,16 @@
     </footer>
 
     <script src="app.js"></script>
+    <!-- Modal for confirming participant removal -->
+    <div id="delete-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="delete-modal-title">
+      <div class="modal-content">
+        <h3 id="delete-modal-title">Remove participant</h3>
+        <p id="delete-modal-message">Are you sure you want to remove this participant?</p>
+        <div class="modal-actions">
+          <button id="delete-cancel" class="secondary">Cancel</button>
+          <button id="delete-confirm" class="danger">Remove</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
